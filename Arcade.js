@@ -1,4 +1,6 @@
 window.addEventListener('load',main,false);
+var bg = new Image();
+ bg.src="sky.png";
 function main() {
  var canvas = document.getElementById("myCanvas");
  var ctx = canvas.getContext('2d');
@@ -8,8 +10,6 @@ function main() {
  var dx = ardx[Math.round((Math.random()+1))]*2;
  var dy = -4;
  var R = 10;
- var bg = new Image();
- bg.src="sky.png";
  var rightPressed = false;
  var leftPressed = false;
  var click = document.getElementById("newButton");
