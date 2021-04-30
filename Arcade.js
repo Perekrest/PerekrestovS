@@ -9,7 +9,7 @@ function main() {
  var dy = -4;
  var R = 10;
  var bg = new Image();
- bg.src="img/sky.png";
+ bg.src="sky.png";
  var rightPressed = false;
  var leftPressed = false;
  var click = document.getElementById("newButton");
